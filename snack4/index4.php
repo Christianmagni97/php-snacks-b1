@@ -1,9 +1,9 @@
 <?php
 $array = array();
-for($i = 0; $i < 15; $x++){
+for($i = 0; $i < 15; $i++){
    $controllo = true;
    while($controllo){
-      $numero = rand(0,300);
+      $numero = rand(0,100);
       if(!in_array($numero, $array)){
          $controllo = false;
       }
