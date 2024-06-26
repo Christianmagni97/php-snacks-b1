@@ -27,6 +27,11 @@ $array = [
             
         ],
     ]
+    
 ],
-echo '28/05/2024';
-echo '28/06/1989';
+foreach ($array as $key => $post){
+    echo $key;
+foreach ($post as $singlePost) {
+    echo $singlePost;
+}
+}
